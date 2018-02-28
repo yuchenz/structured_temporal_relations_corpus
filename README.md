@@ -1,1 +1,9 @@
-# structured_temporal_relations_corpus
+# Structured Temporal Relations Corpus
+
+### Annotation Guidelines
+
+coming soon...
+
+### Corpus
+
+coming soon...
