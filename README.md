@@ -2,7 +2,7 @@
 
 Temporal Dependency Structure Corpus is a collection of Chinese news reports and fairy tale stories annotated with time expressions, events, and temporal relations. Temporal relations in this corpus are represented as a dependency tree structure for each article. Detailed descriptions about Temporal Dependency Tree Structures can be found in [our paper](https://arxiv.org/pdf/1808.07599.pdf).
 
-### Corpus Statistics
+## Corpus Statistics
 
 
 |  | # Articles | # Sentences | # Time Expressions | # Events |
@@ -13,7 +13,7 @@ Temporal Dependency Structure Corpus is a collection of Chinese news reports and
 All 120 fairy tale stories are from Chinese [Grimm Fairy Tales](https://www.grimmstories.com/zh/grimm-tonghua). 52 news reports are from [Chinese Treebank](https://catalog.ldc.upenn.edu/LDC2016T13), and 63 news reports are from Chinese [Wikinews](https://zh.wikinews.org). The train/dev/test data split in this repository is the split we used in [our paper](https://arxiv.org/pdf/1808.07599.pdf).
 
 
-### Corpus Format
+## Corpus Format
 
 Chinese Treebank and Wikinews data are in ```news_data/```, Grimm data are in ```grimm_data/```. 
 
@@ -39,7 +39,7 @@ filename    cSnt    cStart  cEnd    cLabel  pSnt    pStart  pEnd    trLabel
 
 Please note: We use `-1 -1  -1` in the place of `pSnt   pStart  pEnd`, when the parent is the *ROOT* of the dependency tree.
 
-#### To use this corpus, please cite:
+### To use this corpus, please cite:
 
 - Yuchen Zhang and Nianwen Xue. 2018. [Structured Interpretation of Temporal Relations](https://arxiv.org/pdf/1808.07599.pdf). In Proceedings of the 11th Language Resources and Evaluation Conference (LREC-2018), Miyazaki, Japan.
 
