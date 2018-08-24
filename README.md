@@ -28,11 +28,11 @@ Chinese Treebank and Wikinews data are in ```news_data/```, Grimm data are in ``
 filename    cSnt    cStart  cEnd    cLabel  pSnt    pStart  pEnd    trLabel
 ```
 - filename: the file ID
-- cSnt: the snt ID of the child
+- cSnt: the sentence ID of the child
 - cStart: the start word ID of the child
 - cEnd: the end word ID of the child
 - cLabel: the *time expression* or *event* label of the child
-- pSnt: the snt ID of the parent
+- pSnt: the sentence ID of the parent
 - pStart: the start word ID of the parent
 - pEnd: the end word ID of the parent
 - trLabel: the temporal relation label between this child-parent pair
