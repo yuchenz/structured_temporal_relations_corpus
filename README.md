@@ -37,6 +37,8 @@ filename    cSnt    cStart  cEnd    cLabel  pSnt    pStart  pEnd    trLabel
 - pEnd: the end word ID of the parent
 - trLabel: the temporal relation label between this child-parent pair
 
+Please note: We use `-1 -1  -1` in the place of `pSnt   pStart  pEnd`, when the parent is the *ROOT* of the dependency tree.
+
 #### To use this corpus, please cite:
 
 - Yuchen Zhang and Nianwen Xue. 2018. [Structured Interpretation of Temporal Relations](https://arxiv.org/pdf/1808.07599.pdf). In Proceedings of the 11th Language Resources and Evaluation Conference (LREC-2018), Miyazaki, Japan.
