@@ -43,10 +43,10 @@ filename    cSnt    cStart  cEnd    cLabel  pSnt    pStart  pEnd    trLabel
 
 ```
 @inproceedings{zhang2018lrec,
-        title={Structured Interpretation of Temporal Relations},
-            author={Zhang, Yuchen and Xue, Nianwen},
-                booktitle={Proceedings of the 11th Language Resources and Evaluation Conference (LREC-2018)},
-                    year={2018},
-                        address={Miyazaki, Japan}
+    title={Structured Interpretation of Temporal Relations},
+    author={Zhang, Yuchen and Xue, Nianwen},
+    booktitle={Proceedings of the 11th Language Resources and Evaluation Conference (LREC-2018)},
+    year={2018},
+    address={Miyazaki, Japan}
 }
 ```
