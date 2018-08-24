@@ -10,7 +10,7 @@ Temporal Dependency Structure Corpus is a collection of Chinese news reports and
 | **News Reports** | 115 | 2,841 | 1,167 | 4,807 |
 | **Fairy Tale Stories** | 120 | 3,662 | 131 | 10,976 | 
 
-All 120 fairy tale stories are from Chinese [Grimm Fairy Tales](https://www.grimmstories.com/zh/grimm-tonghua). 52 news reports are from [Chinese Treebank](https://catalog.ldc.upenn.edu/LDC2016T13), and 63 news reports are from Chinese [Wikinews](https://zh.wikinews.org).
+All 120 fairy tale stories are from Chinese [Grimm Fairy Tales](https://www.grimmstories.com/zh/grimm-tonghua). 52 news reports are from [Chinese Treebank](https://catalog.ldc.upenn.edu/LDC2016T13), and 63 news reports are from Chinese [Wikinews](https://zh.wikinews.org). The train/dev/test data split in this repository is the split we used in [our paper](https://arxiv.org/pdf/1808.07599.pdf).
 
 
 ### Corpus Format
