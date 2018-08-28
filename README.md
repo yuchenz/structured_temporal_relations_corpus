@@ -1,6 +1,6 @@
-# Temporal Dependency Structure Corpus
+# Temporal Dependency Tree (TDT) Corpus
 
-Temporal Dependency Structure Corpus is a collection of Chinese news reports and fairy tale stories annotated with time expressions, events, and temporal relations. Temporal relations in this corpus are represented as a dependency tree structure for each article. Detailed descriptions about Temporal Dependency Tree Structures can be found in [our paper](https://arxiv.org/pdf/1808.07599.pdf).
+Temporal Dependency Tree Corpus is a collection of Chinese news reports and fairy tale stories annotated with time expressions, events, and temporal relations. Temporal relations in this corpus are represented as a dependency tree structure for each article. Detailed descriptions about Temporal Dependency Tree structures can be found in [our paper](https://arxiv.org/pdf/1808.07599.pdf).
 
 ## Corpus Statistics
 
