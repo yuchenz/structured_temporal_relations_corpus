@@ -17,12 +17,12 @@ All 120 fairy tale stories are from Chinese [Grimm Fairy Tales](https://www.grim
 
 Chinese Treebank and Wikinews data are in ```news_data/```, Grimm data are in ```grimm_data/```. 
 
-```*.text``` files are texts of the articles. Each article is preceded with a line ```filename:<fileID>``` (e.g. ```filename:wikinews_ZH_15```), and followed by a blank line. Please note:
+```*.txt``` files are texts of the articles. Each article is preceded with a line ```filename:<fileID>``` (e.g. ```filename:wikinews_ZH_15```), and followed by a blank line. Please note:
 
 - In Wikinews data, there are blank lines inside the article text. The annotations are performed on these articles including the blank lines, so please don't remove the blank lines.
-- Chinese Treebank `*.text` files are not included here.
+- Chinese Treebank `*.txt` files are not included here.
 
-```*.tdp``` files are the **t**emporal **d**ependency **p**arses for the articles. Each line in a ```*.tdp``` file represents one child-parent pair. Each line has 9 fields, separated by tabs:
+```*.tdt``` files are the **t**emporal **d**ependency **t**rees for the articles. Each line in a ```*.tdt``` file represents one child-parent pair. Each line has 9 fields, separated by tabs:
 
 ```
 filename    cSnt    cStart  cEnd    cLabel  pSnt    pStart  pEnd    trLabel
